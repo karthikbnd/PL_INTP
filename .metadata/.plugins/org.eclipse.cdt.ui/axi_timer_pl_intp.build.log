@@ -1,0 +1,8 @@
+16:17:49 **** Incremental Build of configuration Debug for project axi_timer_pl_intp ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+
+16:17:50 Build Finished (took 132ms)
+

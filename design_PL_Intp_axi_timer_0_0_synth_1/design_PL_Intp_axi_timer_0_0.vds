@@ -1,0 +1,89 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Oct 17 13:59:11 2017
+# Process ID: 3616
+# Current directory: C:/Users/kab/Desktop/workspace/PL_INTP/design_PL_Intp_axi_timer_0_0_synth_1
+# Command line: vivado.exe -log design_PL_Intp_axi_timer_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_PL_Intp_axi_timer_0_0.tcl
+# Log file: C:/Users/kab/Desktop/workspace/PL_INTP/design_PL_Intp_axi_timer_0_0_synth_1/design_PL_Intp_axi_timer_0_0.vds
+# Journal file: C:/Users/kab/Desktop/workspace/PL_INTP/design_PL_Intp_axi_timer_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_PL_Intp_axi_timer_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 347.492 ; gain = 137.145
+INFO: [Synth 8-638] synthesizing module 'design_PL_Intp_axi_timer_0_0' [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ip/design_PL_Intp_axi_timer_0_0/synth/design_PL_Intp_axi_timer_0_0.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'axi_timer' [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/3edf/hdl/axi_timer_v2_0_vh_rfs.vhd:2141]
+INFO: [Synth 8-638] synthesizing module 'tc_core' [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/3edf/hdl/axi_timer_v2_0_vh_rfs.vhd:1698]
+INFO: [Synth 8-638] synthesizing module 'mux_onehot_f' [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/3edf/hdl/axi_timer_v2_0_vh_rfs.vhd:365]
+INFO: [Synth 8-638] synthesizing module 'MUXCY' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:21268]
+INFO: [Synth 8-256] done synthesizing module 'MUXCY' (1#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:21268]
+INFO: [Synth 8-256] done synthesizing module 'mux_onehot_f' (2#1) [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/3edf/hdl/axi_timer_v2_0_vh_rfs.vhd:365]
+INFO: [Synth 8-638] synthesizing module 'count_module' [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/3edf/hdl/axi_timer_v2_0_vh_rfs.vhd:1434]
+INFO: [Synth 8-638] synthesizing module 'counter_f' [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/3edf/hdl/axi_timer_v2_0_vh_rfs.vhd:148]
+INFO: [Synth 8-256] done synthesizing module 'counter_f' (3#1) [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/3edf/hdl/axi_timer_v2_0_vh_rfs.vhd:148]
+INFO: [Synth 8-256] done synthesizing module 'count_module' (4#1) [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/3edf/hdl/axi_timer_v2_0_vh_rfs.vhd:1434]
+INFO: [Synth 8-638] synthesizing module 'timer_control' [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/3edf/hdl/axi_timer_v2_0_vh_rfs.vhd:835]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (5#1) [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'timer_control' (6#1) [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/3edf/hdl/axi_timer_v2_0_vh_rfs.vhd:835]
+INFO: [Synth 8-256] done synthesizing module 'tc_core' (7#1) [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/3edf/hdl/axi_timer_v2_0_vh_rfs.vhd:1698]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (8#1) [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (8#1) [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (8#1) [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (8#1) [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized3' [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized3' (8#1) [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized4' [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized4' (8#1) [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized5' [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized5' (8#1) [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized6' [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized6' (8#1) [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (9#1) [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (10#1) [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (11#1) [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-256] done synthesizing module 'axi_timer' (12#1) [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ipshared/3edf/hdl/axi_timer_v2_0_vh_rfs.vhd:2141]
+INFO: [Synth 8-256] done synthesizing module 'design_PL_Intp_axi_timer_0_0' (13#1) [c:/Users/kab/Downloads/DMA Interrupt/dma_intr/dma_intr.srcs/sources_1/bd/design_PL_Intp/ip/design_PL_Intp_axi_timer_0_0/synth/design_PL_Intp_axi_timer_0_0.vhd:87]
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 386.730 ; gain = 176.383
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 386.730 ; gain = 176.383
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 710.148 ; gain = 0.031
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 710.148 ; gain = 499.801
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 710.148 ; gain = 499.801
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 710.148 ; gain = 499.801
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 710.148 ; gain = 499.801
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 710.148 ; gain = 499.801
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 710.148 ; gain = 499.801
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 710.148 ; gain = 499.801
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 710.148 ; gain = 499.801
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 710.148 ; gain = 499.801
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 710.148 ; gain = 499.801
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 710.148 ; gain = 499.801
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 710.148 ; gain = 499.801
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 710.148 ; gain = 499.801
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 710.148 ; gain = 499.801
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    16|
+|2     |LUT1   |     6|
+|3     |LUT2   |    82|
+|4     |LUT3   |    97|
+|5     |LUT4   |    81|
+|6     |LUT5   |    22|
+|7     |LUT6   |    63|
+|8     |MUXCY  |    64|
+|9     |FDR    |    12|
+|10    |FDRE   |   228|
++------+-------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 710.148 ; gain = 499.801
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 714.672 ; gain = 451.082
